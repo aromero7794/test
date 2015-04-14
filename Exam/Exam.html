@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Listas JQM</title>
+  <link rel="stylesheet" href="c/jquery.mobile.min.css"/>
+  <script src="j/jquery.min.js" ></script>
+  <script src="j/jquery.mobile.min.js" ></script>
+</head>
+<body>
+  <div data-role="page" id="pag1">
+    <div data-role="header" data-position="fixed">
+      <h1>XYS EVENTS</h1>
+    </div>
+    <div role="main" class="ui-content">
+      <h1>Mobile APP v2.0</h1>
+      <ul data-role="listview" data-inset="true">
+        <li>
+          <a href="#pag2">Catalogo Charlas</a>
+        </li>
+        <li>
+          <a href="#pag11">Catalogo Oradores</a>
+        </li>
+        <li>
+          <a href="#pag4">Formulario Inscripcion</a>
+        </li>
+        <li>
+          <a href="pag#11">Listado Generado Automaticamente</a>
+        </li>
+      </ul>
+    </div>
+    <div data-role="footer" data-position="fixed">
+      <div data-role="navbar">
+        <ul>
+          <li>
+            <a href="#pag2">Inicio</a>
+          </li>
+          <li>
+            <a href="#pag3">Categoria</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div data-role="page" id="pag2">
+    <div data-role="header" data-position="fixed" data-add-back-btn="true" data-back-btn-text="Atras">
+      <h1>XYS Events</h1>
+    </div>
+    <div role="main" class="ui-content">
+      <ul data-role="listview"
+      data-autodividers="true">
+
+      <li>
+        <a href="#pag13"><img src="i/1.jpg" />Charla Administracion</a><p>Hora: 10:00am-5:00pm Jueves 10 de Mayo del 2015</p>
+      </li>
+      <li>
+        <a href="#pag13"><img src="i/11.jpg" />Charla Aeronautica<span class="ui-li-count">10</span></a><p>Hora: 10:00am-5:00pm Jueves 10 de Mayo del 2015</p>
+      </li>
+      <li>
+        <a href="#pag13"><img src="i/3.jpg" />Charla Apocaliptica<span class="ui-li-count">7</span></a><p>Hora: 10:00am-5:00pm Jueves 10 de Mayo del 2015</p>
+      </li>
+      <li>
+        <a href="#pag13"><img src="i/4.jpg" />Charla Automotriz</a><p>Hora: 10:00am-5:00pm Jueves 10 de Mayo del 2015</p>
+      </li>
+
+      <li>
+        <a href="#pag13"><img src="i/5.jpg" />Charla Filosofia</a><p>Hora: 10:00am-5:00pm Jueves 10 de Mayo del 2015</p>
+      </li>
+      <li>
+        <a href="#pag13"><img src="i/6.jpg" />Charla Gestion de Proyectos</a><p>Hora: 10:00am-5:00pm Jueves 10 de Mayo del 2015</p>
+      </li>
+      <li>
+        <a href="#pag13"><img src="i/7.jpg" />Charla Historia</a><p>Hora: 10:00am-5:00pm Jueves 10 de Mayo del 2015</p>
+      </li>
+      <li>
+        <a href="#pag13"><img src="i/8.jpg" />Charla Industrial</a><p>Hora: 10:00am-5:00pm Jueves 10 de Mayo del 2015</p>
+      </li>
+      <li>
+        <a href="#pag13"><img src="i/9.jpg" />Charla Matematica</a><p>Hora: 10:00am-5:00pm Jueves 10 de Mayo del 2015</p>
+      </li>
+      <li>
+        <a href="#pag13"><img src="i/10.jpg" />Charla Politica</a><p>Hora: 10:00am-5:00pm Jueves 10 de Mayo del 2015</p>
+      </li>
+
+    </ul>
+  </div>
+  <div data-role="footer" data-position="fixed">
+    <div data-role="navbar">
+      <ul>
+        <li>
+          <a href="#pag1">Inicio</a>
+        </li>
+        <li>
+          <a href="#pag3">Imágen</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div data-role="page" id="pag11">
+  <div data-role="header" data-position="fixed" data-add-back-btn="true" data-back-btn-text="Atras">
+    <h1>XYS Events</h1>
+  </div>
+  <div role="main" class="ui-content">
+    <ul data-role="listview" data-filter="true"
+    data-filter-placeholder="Buscar Orador"
+    data-autodividers="true">
+
+    <li data-icon="info">
+      <a href><img src="i/1.jpg" />Fernandez,Luis</a>
+    </li>
+    <li data-icon="info">
+      <a href><img src="i/11.jpg" />Fonseca,Ramon</a>
+    </li>
+    <li data-icon="info">
+      <a href><img src="i/3.jpg" />Montoya,Fredy</a>
+    </li>
+    <li data-icon="info">
+      <a href><img src="i/4.jpg" />Lagos,Eduardo</a>
+    </li>
+    <li data-icon="info">
+      <a href><img src="i/5.jpg" /><h4>Padilla,Wilfredo</h4>
+      <span class="ui-li-count">45</span></a>
+    </li>
+    <li data-icon="info">
+      <a href><img src="i/6.jpg" />Ulloa,Alex</a>
+    </li>
+    <li data-icon="info">
+      <a href><img src="i/7.jpg" />Zambueza,Adrian</a>
+    </li>
+
+
+  </ul>
+</div>
+<div data-role="footer" data-position="fixed">
+  <div data-role="navbar">
+    <ul>
+      <li>
+        <a href="#pag1">Inicio</a>
+      </li>
+      <li>
+        <a href="#pag2">Categoria</a>
+      </li>
+    </ul>
+  </div>
+</div>
+</div>
+
+<div data-role="page" id="pag4">
+  <div data-role="header" data-position="fixed">
+    <h1>Formulario Alumno </h1>
+  </div>
+  <div role="main" class="ui-content">
+
+    <form id="forma1">
+      <div class="ui-field-contain">
+        <label for="txt1">Nombre Alumno</label>
+        <input type="text" id="txt1"
+        name="txt1" placeholder="Nombre Alumno"
+        />
+
+      </div>
+      <div class="ui-field-contain">
+        <label for="txt2">Apellido Alumno</label>
+        <input type="text" id="txt2"
+        name="txt1" placeholder="Apellido Alumno"
+        />
+      </div>
+
+      <div class="ui-field-contain">
+        <label for="slider">Tiempo Disponible(24hrs)</label>
+        <input type="range" id="slider"
+        name="slider" min="0" max="24"
+        value="0" step="1"/>
+      </div>
+
+      <div>
+        <input type="checkbox" id="switch" name="switch" class="switch" checked="checked" />
+        <label for="switch">Estudiante</label>
+      </div>
+
+      <div>
+        <input type="checkbox" id="switch2" name="switch2" class="switch" />
+        <label for="switch2">Profesional</label>
+      </div>
+
+    </form>
+
+
+  </div>
+  <div data-role="footer" data-position="fixed">
+    <div data-role="navbar">
+      <ul>
+        <li>
+          <a href="#pag1">Home</a>
+        </li>
+        <li>
+          <a href="#pag3">Imágen</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+
+  <div data-role="page" id="pag11">
+    <div data-role="header" data-position="fixed">
+      <h1>Formulario Alumno </h1>
+    </div>
+    <div role="main" class="ui-content">
+
+      <form id="forma1">
+        <div class="ui-field-contain">
+          <label for="txt1">Nombre Alumno</label>
+          <input type="text" id="txt1"
+          name="txt1" placeholder="Nombre Alumno"
+          />
+
+        </div>
+        <div class="ui-field-contain">
+          <label for="txt2">Apellido Alumno</label>
+          <input type="text" id="txt2"
+          name="txt1" placeholder="Apellido Alumno"
+          />
+        </div>
+
+        <div class="ui-field-contain">
+          <label for="slider">Tiempo Disponible(24hrs)</label>
+          <input type="range" id="slider"
+          name="slider" min="0" max="24"
+          value="0" step="1"/>
+        </div>
+
+        <div>
+          <input type="checkbox" id="switch" name="switch" class="switch" checked="checked" />
+          <label for="switch">Estudiante</label>
+        </div>
+
+        <div>
+          <input type="checkbox" id="switch2" name="switch2" class="switch" />
+          <label for="switch2">Profesional</label>
+        </div>
+
+      </form>
+
+
+    </div>
+    <div data-role="footer" data-position="fixed">
+      <div data-role="navbar">
+        <ul>
+          <li>
+            <a href="#pag1">Inicio</a>
+          </li>
+          <li>
+            <a href="#pag3">Categoria</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div data-role="page" id="pag13">
+      <div data-role="header" data-position="fixed">
+        <h1>Catalogo Charlas</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque auctor ultricies elit. Nunc dapibus molestie dui, a semper magna. Etiam sit amet dapibus metus, eu pharetra dolor. Maecenas quis faucibus justo. In hac habitasse platea dictumst. Etiam vel eros sapien. Donec non pulvinar est. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis eg</p>
+      </div>
+
+    </div>
+      <div data-role="footer" data-position="fixed">
+        <div data-role="navbar">
+          <ul>
+            <li>
+              <a href="#pag1">Inicio</a>
+            </li>
+            <li>
+              <a href="#pag3">Categoria</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div data-role="page" id="pag14">
+        <div data-role="header" data-position="fixed">
+          <h1>Charla </h1>
+        </div>
+        <div role="main" class="ui-content">
+        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque</p>
+        </div>
+        <div data-role="footer" data-position="fixed">
+          <div data-role="navbar">
+            <ul>
+              <li>
+                <a href="#pag1">Inicio</a>
+              </li>
+              <li>
+                <a href="#pag3">Categoria</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+
+</div>
+</body>
+</html>
